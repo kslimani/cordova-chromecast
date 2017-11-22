@@ -1,4 +1,4 @@
-    var EventEmitter = require('acidhax.cordova.chromecast.EventEmitter');
+    var EventEmitter = require('cordova-plugin-chromecast.EventEmitter');
 
     var chrome = {};
     chrome.cast = {
