@@ -3,6 +3,8 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         id="plchampigny.cordova.chromecast"
         version="1.0.0">
+        
+  <repo>https://github.com/plchampigny/cordova-chromecast</repo>
   <engines>
     <engine name="cordova" version=">=3.4.0" />
   </engines>
