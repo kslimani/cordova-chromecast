@@ -369,6 +369,12 @@ public class ChromecastSession
 			
 			ApplicationMetadata metadata = result.getApplicationMetadata();
 			ChromecastSession.this.sessionId = result.getSessionId();
+			
+			// If the session is null, session request failed
+			if (ChromecastSession.this.sessionId == null || metadata == null) {
+				ChromecastSession.this.isConnected = false;
+				return;
+			}
 			ChromecastSession.this.displayName = metadata.getName();
 			ChromecastSession.this.appImages = metadata.getImages();
 		
