@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-chromecast",
-  "version": "1.0.3",
+  "version": "1.0.0",
   "description": "Cordova plugin for chromecast",
   "cordova": {
     "id": "plchampigny.cordova.chromecast",
